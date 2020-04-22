@@ -1,14 +1,12 @@
 html {
     font-family: sans-serif;
-    background-color: #808080 ;
+    background-color: #808080;
 }
 
 body {
     background-color: #f4f4f4;
     margin: 15px 10px 15px 15px;
     padding: 150px 11px;
-    -moz-border-radius: 8px;
-    -webkit-border-radius: 8px;
     width: 98%;
     height: 100%;
 }
@@ -71,4 +69,35 @@ p {
 .ultimoResultado {
     color: #ffff;
     padding: 6px;
+}
+
+@media screen and (max-width: 768px) {
+    .form {
+        padding: 10px;
+        width: 100%;
+        left: 1%;
+        position: relative;
+    }
+    .envioPalpite {
+        position: relative;
+        margin: 10px 0px 0px 10px;
+        left: 28%;
+    }
+    .resultadoParas {
+        padding: 10px;
+        width: 100%;
+        left: 1%;
+        position: relative;
+    }
+    button {
+        padding: 4px 11px;
+        border: solid 1px #00CDE1;
+        -moz-border-radius: 8px;
+        -webkit-border-radius: 8px;
+        border-radius: 8px;
+        background-color: #40e0d0 !important;
+        color: #ffffff;
+        left: 34%;
+        position: relative;
+    }
 }

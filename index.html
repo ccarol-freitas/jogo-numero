@@ -7,27 +7,36 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-08RCF8CBQ9"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-08RCF8CBQ9');
+    </script>
 
     <title>Adivinhe o número</title>
 </head>
 
 <body>
-    
-            <h1 class="text-center">Jogo adivinhe o número</h1>
-                <p>Adivinhe qual é o número aleatório entre 1 e 100. 
-                <p>Você tem <strong>10</strong> chances para adivinhar qual é.</p>
 
-            <div class="form">
-                <label for="campoPalpite">Digite seu palpite:&nbsp </label><input type="text" id="campoPalpite"
-                    class="campoPalpite">
-                <input type="submit" value="Enviar palpite" class="envioPalpite">
-            </div>
+    <h1 class="text-center">Jogo adivinhe o número</h1>
+    <p>Adivinhe qual é o número aleatório entre 1 e 100.
+        <p>Você tem <strong>10</strong> chances para adivinhar qual é.</p>
 
-            <div class="resultadoParas">
-                <p class="palpites"></p>
-                <p class="ultimoResultado"></p>
-                <p class="baixoOuAlto"></p>
-            </div>
+        <div class="form">
+            <label for="campoPalpite">Digite seu palpite:&nbsp </label><input type="text" id="campoPalpite"
+                class="campoPalpite">
+            <input type="submit" value="Enviar palpite" class="envioPalpite">
+        </div>
+
+        <div class="resultadoParas">
+            <p class="palpites"></p>
+            <p class="ultimoResultado"></p>
+            <p class="baixoOuAlto"></p>
+        </div>
 </body>
 
 <script src="main.js"></script>
