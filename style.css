@@ -1,0 +1,74 @@
+html {
+    font-family: sans-serif;
+    background-color: #808080 ;
+}
+
+body {
+    background-color: #f4f4f4;
+    margin: 15px 10px 15px 15px;
+    padding: 150px 11px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    width: 98%;
+    height: 100%;
+}
+
+.lastResult {
+    color: white;
+    padding: 3px;
+}
+
+.envioPalpite {
+    padding: 4px 11px;
+    border: solid 1px #00CDE1;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    background-color: #40e0d0 !important;
+    color: #ffffff;
+}
+
+button {
+    padding: 4px 11px;
+    border: solid 1px #00CDE1;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    background-color: #40e0d0 !important;
+    color: #ffffff;
+    left: 46%;
+    position: relative;
+}
+
+input {
+    margin: 0 auto;
+    padding: 5px;
+    border: solid 1px gray;
+}
+
+.form {
+    padding: 10px;
+    width: 50%;
+    left: 35%;
+    position: relative;
+    font-family: Montserrat-Regular, sans-serif;
+    font-size: 14px;
+}
+
+.resultadoParas {
+    padding: 10px;
+    width: 50%;
+    left: 377px;
+    position: relative;
+}
+
+p {
+    font-family: Montserrat-Regular, sans-serif;
+    text-align: center;
+    font-size: 14px;
+}
+
+.ultimoResultado {
+    color: #ffff;
+    padding: 6px;
+}
